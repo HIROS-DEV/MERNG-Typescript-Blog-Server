@@ -31,7 +31,7 @@ const server = new ApolloServer({
 	resolvers,
 	csrfPrevention: true,
 	cors: {
-		origin: ['https://myfirst-merng-typescript-graphql-blog.netlify.app'],
+		origin: ['https://myfirst-merng-typescript-graphql-blog.vercel.app'],
 	},
 	context: async ({ req }) => {
 		const auth = req ? req.headers.authorization : null;
