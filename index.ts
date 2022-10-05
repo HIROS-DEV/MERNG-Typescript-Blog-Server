@@ -29,6 +29,10 @@ connect(MONGODB_URI)
 const server = new ApolloServer({
 	typeDefs,
 	resolvers,
+	csrfPrevention: true,
+	cors: {
+		origin: ['https://myfirst-merng-typescript-graphql-blog.netlify.app'],
+	},
 	context: async ({ req }) => {
 		const auth = req ? req.headers.authorization : null;
 
