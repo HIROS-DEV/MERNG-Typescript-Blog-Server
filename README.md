@@ -1,3 +1,15 @@
+# Project Overview
+
+This is my first Typescript and Graphql project.
+So, I think there are may be several mistakes in there.
+I would have liked to learn fundamentals of Typescript and Graphql through the project
+
+I created client side with React, and used MongoDB database.
+
+And, this is server side repository.(https://github.com/HIROS-DEV/MERNG-Typescript-Blog-Server )
+
+If you interested in client side, please visit the URL(https://github.com/HIROS-DEV/MERNG-Typescript-Blog-Client-)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -5,6 +17,23 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # Screen Shot
 
 <img src="./screen.png"/>
+
+# Demo Site URL
+
+https://myfirst-merng-typescript-graphql-blog.vercel.app/
+
+
+# Dot env
+
+I used dotenv file in this project.
+
+Client Side:
+REACT_APP_DEV_URL = Your frontend URL here
+
+Server Side:
+
+MONGODB_URI = Your mongodb URI here
+JWT_SECRET = Your jsonwebtoken's password here
 
 ## Available Scripts
 
@@ -48,3 +77,12 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Finale
+
+I am living in Japan. And I can not use English perfectly.
+So, there are may be some mistakes.
+But, I would like to　happy, if you accepted my mistakes with your warm heart.
+
+Thank you for reading my texts.
+And, happy coding!!!
